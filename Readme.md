@@ -1,17 +1,10 @@
 <h1 align='center'>
 <b>Documentación del Proyecto Individual N°2 Telecomunicaciones</b>
 </h1>
-
-Para mejorar tu README y enfocarlo más en los usuarios que leerán tu código, te sugiero algunos ajustes y detalles adicionales:
-
 ---
 
-### Descripción
-
-El objetivo de este proyecto es identificar las provincias que tienen mayor potencial del crecimiento del consumo de internet.
-
 ### Tabla de contenido
-1. [Introducción](#introducción)
+1. [Descripción](#descripción)
 2. [Instalación y Requisitos](#instalación-y-requisitos)
 3. [Estructura del Proyecto](#estructura-del-proyecto)
 4. [Uso y Ejecución](#uso-y-ejecución)
@@ -21,7 +14,9 @@ El objetivo de este proyecto es identificar las provincias que tienen mayor pote
 8. [Contribución y Colaboración](#contribución-y-colaboración)
 9. [Licencia](#licencia)
 
-### Introducción
+### Descripción
+
+El objetivo de este proyecto es identificar las provincias que tienen mayor potencial del crecimiento del consumo de internet. Se utiliza el lenguaje Python para el análisis y la visualización de datos.
 
 ### Instalación y Requisitos
 **Requisitos:**
@@ -41,17 +36,27 @@ El objetivo de este proyecto es identificar las provincias que tienen mayor pote
 4. Instalar las dependencias: `pip install -r requirements.txt`
 
 ### Estructura del Proyecto
-- `data/`: Contiene el archivo 'Internet.xlsx' en donde se encuentran los datasets analizados.
-- `notebooks/`: Contiene la seleccion de los datasets y los EDA de estos.
-- `reports/`: Informes y visualizaciones.
-- `README.md`: Documentación.
+```
+├── data/
+│   └── Internet.xlsx
+├── reports/: Informes y visualizaciones.
+│   ├── graficos/
+│   └── reportes/
+├── notebooks/: EDAs.
+│   ├── analisis.py
+│   ├── visualizacion.py
+│   └── utils.py
+├── main.py
+├── requirements.txt
+└── README.md: Documentación.
+```
 
 ### Uso y Ejecución
 1. Ejecutar `ventas_analisis.ipynb` en `notebooks/` para análisis.
 2. Ejecutar `generate_report.py` en `src/` para generar un informe.
 
 ### Datos y Fuentes
-Datos internos de ventas de la tienda, que incluyen información de clientes, inventario, y promociones.
+Datos internos del consumo de Internet en Argentina extraidas de la página oficial del ENACOM.
 
 ### Metodología
 Se aplicaron modelos de regresión y árboles de decisión para predecir ventas futuras, además de segmentación de clientes.
