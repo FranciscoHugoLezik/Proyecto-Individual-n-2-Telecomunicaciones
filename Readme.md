@@ -25,6 +25,8 @@ El objetivo de este proyecto es identificar las provincias que tienen mayor pote
 - matplotlib
 - seaborn
 - fastparquet
+- nbconvert
+- pandoc
 
 **Pasos de instalación:**
 1. Clonar el repositorio: `git clone https://github.com/FranciscoHugoLezik/Proyecto-Individual-n-2-Telecomunicaciones.git`
