@@ -20,11 +20,12 @@ El objetivo de este proyecto es identificar las provincias que tienen mayor pote
 
 ### Instalación y Requisitos
 **Requisitos:**
-- Python 3.8.10
+- Python 3.11.9
 - numpy
 - pandas
 - matplotlib
 - seaborn
+- fastparquet
 
 **Pasos de instalación:**
 1. Clonar el repositorio: `git clone https://github.com/FranciscoHugoLezik/Proyecto-Individual-n-2-Telecomunicaciones.git`
