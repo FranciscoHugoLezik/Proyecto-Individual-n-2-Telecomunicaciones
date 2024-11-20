@@ -1,7 +1,6 @@
 <h1 align='center'>
 <b>Documentación del Proyecto Individual N°2 Telecomunicaciones</b>
 </h1>
----
 
 ### Tabla de contenido
 1. [Descripción](#descripción)
@@ -60,12 +59,14 @@ El objetivo de este proyecto es identificar las provincias que tienen mayor pote
 Datos internos del consumo de Internet en Argentina extraidas de la página oficial del ENACOM.
 
 ### Metodología
-Se aplicaron modelos de regresión y árboles de decisión para predecir ventas futuras, además de segmentación de clientes.
+Se eligio tres datasets para concentrar el análisis. Se hicieron tres EDAs. Uno por cada dataset. Se segmentaron datos y se utilizaron gráficos.
 
 ### Resultados y Conclusiones
-- Las ventas aumentan durante verano y Navidad.
-- Identificados productos más vendidos.
-- El modelo predijo ventas con un 85% de precisión.
+- El rango de velocidad a concentrarse es igual o superior a 30 Mbps.
+- El rango deseado debe ser accesible pero con una velocidad aceptable.
+- Las provincias de Buenos Aires, Capital Federal, Córdoba y Santa Fe tienen las tres cuartas partes de los accesos nacionales.
+- La fibra óptica tiene tendencia a dominar el mercado.
+- El mayor consumo hogareño esta en Capital Federal. La provincia de Buenos Aires esta en octavo lugar pero como limita en la capital es un mercado con potencial para crecer.
 
 ### Contribución y Colaboración
 Haz un fork del repositorio.
